@@ -1,0 +1,38 @@
+**Trạng thái{
+	--Trong db
+		+0: Đã hủy/nghỉ làm/hết hàng...
+		+1:ngược lại của 0
+		+2: Chờ thanh toán ở hóa đơn
+}
+--Sửa trạng thái trong db sang int 
+--Bỏ trường tên người thanh toán
+trong bảng hóa đơn
+--Sửa bảng hóa đơn chi tiết
+	+Thay đổi khóa chính->Id
+	+Cập nhật thêm trạng thái hóa đơn
+	 chi tiết 
+	+ Bỏ trả hàng
+--Insert data trong file db
++chucvu*
++taikhoan*
++thuonghieu*
++size*
++Nhacungcap*
++MauSac*
++DeGiay*
++SanPham*
++Anh
++ChitietSanPham*
++HoaDon
++HoaDonChiTiet
++TrangThai*
+--Update domainModel
++TaiKhoan*
++TrangThai*
++HoaDon*
++HoaDonChiTiet*
+--Update response
++TaiKhoan
++HoaDon
+--Update BanHang service impl(Sửa tên)
+
